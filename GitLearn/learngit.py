@@ -19,3 +19,9 @@
 # git commit -m "提交说明：你干了啥"  ------commit将暂存区文件提交到Git仓库
 
 # 查看状态
+# git status
+
+# git restore 将暂存区域的文件恢复到工作区域，会丢失掉现在工作区的文件！！！
+
+# 查看历史提交
+# git log
