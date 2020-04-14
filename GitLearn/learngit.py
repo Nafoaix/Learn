@@ -134,6 +134,9 @@
 # 切换分支
 # git checkout 分支名
 
+# 创建并切换到分支中
+# git checkout -b 分支名
+
 # 图形化显示各快照
 # git log --decorate --oneline --graph --all
 # --graph 图形化显示
@@ -173,3 +176,7 @@
 # 分支合并
 # git merge 分支名
 # 将指定分支合并到本分支
+
+# 删除分支
+# git branch -d 分支名
+# 删除分支后名字丢失了其实快照还在，因为分支实际上就是一个指针指向一个快照
